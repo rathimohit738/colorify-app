@@ -1,0 +1,24 @@
+{
+  "name": "react-loading-component",
+  "version": "1.0.0",
+  "description": "react loading component",
+  "main": "index.js",
+  "scripts": {
+    "build": "jsx --harmony lib/loading.jsx > lib/loading.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Jackong/react-loading-component.git"
+  },
+  "keywords": [
+    "react",
+    "loading"
+  ],
+  "author": "jackong <jackongc@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jackong/react-loading-component/issues"
+  },
+  "homepage": "https://github.com/Jackong/react-loading-component"
+}
